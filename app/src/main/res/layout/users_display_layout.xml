@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/border_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="horizontal"
+        android:background="@drawable/borders"
+
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/profile_image"
+            android:id="@+id/users_profile_image"
+
+            ></de.hdodenhof.circleimageview.CircleImageView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/user_profile_name"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textAlignment="textStart"
+                android:textSize="18sp"
+                android:textStyle="bold"
+
+                ></TextView>
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/user_online_status"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/online"
+                 android:visibility="invisible"
+                ></ImageView>
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <TextView
+                android:id="@+id/user_status"
+                android:layout_width="210dp"
+                android:layout_height="22sp"
+                android:text="User Status"
+                android:textAlignment="textStart"
+                android:textSize="12sp"
+                android:layout_marginLeft="5dp"
+
+
+                ></TextView>
+            <Button
+                android:id="@+id/fragment_video_call_btn"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+
+
+                android:background="@drawable/video_call"
+                >
+
+            </Button>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+
+                >
+
+             <Button
+                 android:layout_marginLeft="10dp"
+                 android:id="@+id/request_accept_button"
+                 android:layout_width="wrap_content"
+                 android:layout_height="30dp"
+                 android:text="Accept"
+                 android:textSize="16sp"
+                 android:textAllCaps="false"
+                 android:background="@android:color/holo_green_light"
+                 android:visibility="invisible"
+                 ></Button>
+
+                <Button
+                    android:id="@+id/request_cancel_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text="Cancel"
+                    android:layout_marginStart="10dp"
+
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:background="@android:color/holo_red_dark"
+                     android:textColor="@android:color/background_light"
+                    android:visibility="invisible"
+                    ></Button>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout
+    >

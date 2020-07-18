@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "403907009488",
+    "firebase_url": "https://heyochat-32421.firebaseio.com",
+    "project_id": "heyochat-32421",
+    "storage_bucket": "heyochat-32421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:403907009488:android:241bf6f9e8218ad81837d5",
+        "android_client_info": {
+          "package_name": "com.example.heyochat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "403907009488-isg84vbm3ke38ib6refffoh2aj4lnmbq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.heyochat",
+            "certificate_hash": "095fbdfb2b5c10d7c5fa610d21e460a5100ea7c2"
+          }
+        },
+        {
+          "client_id": "403907009488-ffi55eukvaacr6rfmjl2avibi7njgr5p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4QqYySYjWS8H5EHQLE0NDeJvfmpAQDAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "403907009488-ffi55eukvaacr6rfmjl2avibi7njgr5p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
